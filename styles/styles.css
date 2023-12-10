@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+    
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    padding: 0 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header .left-side{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header .right-side ul{
+    display: flex;
+    gap:  15px;
+}
+
+.header .right-side li{
+    list-style-type: none;
+}
+
+.header .right-side a{
+    text-decoration: none;
+    color: #E5e7eb; 
+} 
