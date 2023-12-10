@@ -156,6 +156,7 @@ body{
     align-items: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 50px;
 
 }
 
@@ -190,4 +191,18 @@ body{
     background-color: #3882f6;
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1F2937;
+    margin-top: 50px;
+}
+
+.footer-content{
+    color: #F9FAF8;
 }
