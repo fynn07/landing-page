@@ -89,3 +89,41 @@ body{
     padding: 15px 40px;
     border-radius: 20px;
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.information *{
+    flex: 1;
+}
+
+.information .first-column p{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.information .second-column{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.information .second-column .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.information .second-column .info .info-first{
+    border: 2px solid #3882f6;
+    border-radius: 20px;
+    padding: 100px 0px;
+}
